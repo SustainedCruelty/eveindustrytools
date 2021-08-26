@@ -27,7 +27,6 @@ eit.invention_probability(16243, rem = 5, science1 = 5, science2 = 5, decryptor 
 eit.me_formula(quantity = 10000, me = 5) # returns 9500
 eit.me_formula(quantity = 10, me = 9) # returns 9
 ```
-Check out this [colab-notebook](https://colab.research.google.com/drive/1XipQmxwsY9LW6sSaxfjr5VNgzWtifIA2?usp=sharing) to see what other function the library provides and how to use them
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
