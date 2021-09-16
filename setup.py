@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'eveindustrytools',         
   packages = ['eveindustrytools'],   
-  version = '0.0.1a',      
+  version = '0.0.1',      
   license='MIT',        
   description = 'provides a variety of functions useful for doing industry in eve online using evemarkettools',  
   author = 'Filip Jöde',                   
