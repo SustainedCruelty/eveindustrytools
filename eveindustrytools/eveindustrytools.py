@@ -168,7 +168,7 @@ def vertical_production_runs(type_id: int, quantity: int, me: int = 10, prod_typ
 
 def invention_probability(type_id: int, rem: int = 5, science1: int = 5, science2: int = 5,
                           decryptor: int = 1) -> float:
-    base = probabilities['probability'].loc[(probabilities['type_id'] == type_id)].iloc[0]
+    base = probabilities['probability'].loc[(probabilities['typeID'] == type_id)].iloc[0]
     return base * (1 + ((rem / 40) + ((science1 + science2) / 30))) * decryptor
 
 def me_formula(quantity: int, me: int = 0) -> int:
